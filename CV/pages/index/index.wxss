@@ -1,0 +1,34 @@
+/**index.wxss**/
+.page {
+  background-color: #eee;
+}
+
+.weui-flex {
+  background-color: #fff;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.profile-photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.myname{
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+.myjob{
+  display: block;
+  text-align: center;
+}
+
+.skill-title{
+  display: block;
+
+}

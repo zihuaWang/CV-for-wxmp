@@ -1,0 +1,55 @@
+<!--pages/pone/index.wxml-->
+<view class="page">
+  <view class="pinfo">
+    <image class="photo" src="/images/logo1.png"></image>
+    <text class="pname">好易贷</text>
+    
+  </view>
+  <view class="page__bd">
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">基本信息</view>
+        <view class='weui-panel__bd'>
+          <text>好易贷是一款安全的互联网金融服务平台，该平台可以为大中、小微企业和个人消费提供贷款，投资用户也可以将闲散资金投放在这个平台上进行理财，投资成功即可获得收益。</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">主要模块</view>
+        <view class='weui-panel__bd page__bd_spacing'>
+
+          <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholderl">首页</view></view>
+            <view class="weui-flex__item"><view class="placeholderl">注册登录</view></view>
+            <view class="weui-flex__item"><view class="placeholder">个人中心</view></view>
+          </view>
+          <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholderl">我要理财</view></view>
+            <view class="weui-flex__item"><view class="placeholder">我要借款</view></view>
+            <view class="weui-flex__item"><view class="placeholder">安全保障</view></view>
+          </view>
+        </view>
+      </view>
+
+      
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">责任描述</view>
+        <view class='weui-panel__bd'>
+          <text>1.	项目立项后参与需求分析与需求评审，了解项目需求及业务流程</text>
+          <text>2.	根据负责模块编写测试计划</text>
+          <text>3.	编写测试用例并提交评审，保证用例准确。</text>
+          <text>4.	搭建环境，执行测试用例，提交并追踪BUG情况。</text>
+          <text>5.	追踪并确保BUG修复率达到指标。</text>
+          <text>6.	编写测试报告，总结完成本次测试工作。</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

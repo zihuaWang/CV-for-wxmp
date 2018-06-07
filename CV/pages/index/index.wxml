@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="myinfo">
+    <image class="profile-photo" src="{{myphoto}}"></image>
+    <text class="myname">{{myname}}</text>
+    <text class="myjob">{{myjob}}</text>
+    
+  </view>
+  <view class="page__bd">
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">基本信息</view>
+        <view class='weui-panel__bd'>
+
+          <view wx:for="{{myinfoArray}}" class="weui-cell">
+            <view class="weui-cell__hd"><image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" /></view>
+            <view class="weui-cell__bd weui-cell_primary">
+               <view>{{item}}</view>
+            </view>
+            <view class="weui-cell__ft"></view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">专业技能</view>
+        <view class='weui-panel__bd'>
+
+          <view wx:for="{{myskillArray}}" class="weui-cell">
+            <view class="weui-cell__hd"></view>
+            <view class="weui-cell__bd weui-cell_primary">
+              <view>{{item.skillName}}</view>
+              <view class="weui-progress">
+                <view class="weui-progress__bar">
+                  <progress percent="{{item.percent}}" stroke-width="15" />
+                </view>
+              </view>
+            </view>
+            <view class="weui-cell__ft"></view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">项目经验</view>
+          <view class="weui-panel__bd">
+
+            <navigator wx:for="{{myprojectArray}}" url="{{item.url}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+              <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                <image class="weui-media-box__thumb" src="{{item.image}}" />
+              </view>
+              <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                <view class="weui-media-box__title">{{item.name}}</view>
+                <view class="weui-media-box__desc">{{item.descript}}</view>
+              </view>
+            </navigator>
+            
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,52 @@
+/* pages/ptwo/index.wxss */
+
+.page {
+  background-color: #eee;
+}
+
+.weui-flex {
+  background-color: #fff;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.weui-flex text{
+  margin: 10px;
+  display: block;
+}
+
+.photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.pname{
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}
+
+.placeholderl{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #09BB07;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #fff;
+}
+
+

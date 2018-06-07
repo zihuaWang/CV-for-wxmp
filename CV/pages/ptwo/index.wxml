@@ -1,0 +1,54 @@
+<!--pages/ptwo/index.wxml-->
+<view class="page">
+  <view class="pinfo">
+    <image class="photo" src="/images/logo1.png"></image>
+    <text class="pname">颜美</text>
+    
+  </view>
+  <view class="page__bd">
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">基本信息</view>
+        <view class='weui-panel__bd'>
+          <text>颜美 APP是一个结合化妆品点评、美妆教程、美妆资讯为一体的APP。为用户提供更多变美指南。</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">主要模块</view>
+        <view class='weui-panel__bd page__bd_spacing'>
+
+          <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">超值美购</view></view>
+            <view class="weui-flex__item"><view class="placeholderl">美妆教程</view></view>
+            <view class="weui-flex__item"><view class="placeholder">颜美商城</view></view>
+          </view>
+          <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholderl">美丽圈</view></view>
+            <view class="weui-flex__item"><view class="placeholderl">妆品库</view></view>
+          </view>
+        </view>
+      </view>
+
+      
+    </view>
+
+    <view class="weui-flex">
+      <view class='weui-flex__item'>
+        <view class="weui-panel__hd">责任描述</view>
+        <view class='weui-panel__bd'>
+          <text>1.  项目立项后参与需求分析与需求评审，了解项目需求及业务流程</text>
+          <text>2.	根据负责模块编写测试计划</text>
+          <text>3.	编写测试用例并提交评审，保证用例准确。</text>
+          <text>4.	搭建环境，执行测试用例，提交并追踪BUG情况。</text>
+          <text>5.	追踪并确保BUG修复率达到指标。</text>
+          <text>6.	编写测试报告，总结完成本次测试工作。</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

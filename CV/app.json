@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pone/index",
+    "pages/ptwo/index",
+    "pages/pthree/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarTextStyle":"black"
+  }
+}
